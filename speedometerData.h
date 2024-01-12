@@ -1,8 +1,4 @@
-#ifndef ENGINECONFIGURATION_H
-#define ENGINECONFIGURATION_H
-
 #include <QObject>
-#include <QVector>
 #include <QString>
 
 class EngineConfiguration : public QObject
@@ -31,5 +27,3 @@ private:
     double m_distance;
     QString m_distanceString;
 };
-
-#endif // ENGINECONFIGURATION_H
